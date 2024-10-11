@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Mi blog de aprendizaje</title>
+        <link rel="stylesheet" href="dinosaurios.css" />
+    </head>
+
+    <body>
+        <h1>DINOSAURIOS.</h1>
+        <p>Este blog hablaremos sobre dinosaurios</p>
+
+        <h2>Tipos de Dinosaurios</h2>
+        <div>
+            <p>Empecemos por definir cuales son los tipos de Dinosaurios.</p>
+
+            <ol>
+                <li>Los que vuelan.</li>
+                <li>Los que se arrastran.</li>
+                <li>Los que son guapos.</li>
+            </ol>
+        </div>
+        <h3>Caracteristicas de cada tipo.</h3>
+        <div>
+            <ul>
+                <li>
+                    Propiedades de los que vuelan.
+                    <ol>
+                        <li>Son rapidos.</li>
+                        <li>Pueden ver todo el entorno.</li>
+                        <li>Vision aumentada x1000.</li>
+                    </ol>
+                </li>
+                <li>
+                    Propiedades de los que se arrastran.
+                    <ol>
+                        <li>Se ensucian mucho.</li>
+                        <li>
+                            Tienen mas chance de jugar con otros Dinosaurios.
+                        </li>
+                        <li>Suelen ser mas vulnerables a ser cazados.</li>
+                    </ol>
+                </li>
+                <li>Propiedades de los que son guapos.</li>
+                <ol>
+                    <li>Tienen la vida mas facil.</li>
+                    <li>Consiguen lo que quieren sin pagar ni cazar.</li>
+                    <li>
+                        Pueden dormir mas porque no son cazados por ser guapos.
+                    </li>
+                </ol>
+            </ul>
+        </div>
+        <img class="dinoImg" src="Dinosaurio feliz.jpg" width="150" />
+
+        <section id="information_section">
+            <h2>Informacion dedicada para dinosaurios</h2>
+            <div>
+                <p>
+                    En este espacio voy a dejar un apartado de contacto y
+                    sugerencias, para esas personas amantes de los Dinosaurios
+                    como yo.
+                </p>
+                <br />
+                <b
+                    >Para mas Informacion Call 911Dinosaurios al ataque o
+                    rellena el siguiente formulario.</b
+                >
+            </div>
+            <br />
+            <br />
+            <br />
+            <form action="/submit" method="POST" class="contact_form">
+                <input
+                    class="contact_input"
+                    type="text"
+                    name="name"
+                    placeholder="Nombre"
+                    value="Juan"
+                />
+                <input
+                    class="contact_input"
+                    type="text"
+                    name="lastname"
+                    placeholder="Apellido"
+                    value="dee"
+                />
+                <input
+                    class="contact_input"
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    value="juan@dee.com"
+                />
+                <button class="button_contact_form" type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </body>
+    <footer>
+        <p>Copyright 2024</p>
+    </footer>
+</html>

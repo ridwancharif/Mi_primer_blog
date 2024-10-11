@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(0, 255, 242);
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.contact_input,
+.button_contact_form {
+    border: none;
+    background-color: rgb(62, 99, 211);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button_contact_form {
+    background-color: red;
+}
